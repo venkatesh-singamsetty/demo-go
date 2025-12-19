@@ -1,18 +1,32 @@
 # demo-go
 
 A minimal Go demo project demonstrating a small package, a main program, and a unit test.
+- **Main package**: `greet` with a `Hello(name)` function
+- **CLI application**: Prints "Hello, World!" to the console
+- **Tests**: Unit tests verify that `Hello()` works correctly
 
-**Prerequisites:**
+## Project Structure
+
+```
+demo-go/
+├── go.mod           # Module file
+├── main.go          # Main CLI application
+├── demo-go          # Do not commit this since it is a binary
+└── greet/
+    ├── greet.go     # Greet package
+    └── greet_test.go # Unit tests
+```
+
+## Prerequisites
+
 - **Go:** Install Go (recommended 1.20+). On macOS with Homebrew:
 
 ```zsh
 brew install go
 ```
 
-**Project layout:**
-- `go.mod` — module file
-- `main.go` — small CLI that prints a greeting
-- `greet/` — package with `greet.go` and `greet_test.go`
+Tested with:
+- Go: `go1.24.0`
 
 **Quick start (from workspace root):**
 
