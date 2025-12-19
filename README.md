@@ -1,6 +1,6 @@
-# go-sample
+# demo-go
 
-A minimal Go sample project demonstrating a small package, a main program, and a unit test.
+A minimal Go demo project demonstrating a small package, a main program, and a unit test.
 
 **Prerequisites:**
 - **Go:** Install Go (recommended 1.20+). On macOS with Homebrew:
@@ -17,13 +17,13 @@ brew install go
 **Quick start (from workspace root):**
 
 ```zsh
-cd gitRepos/go-sample
+cd gitRepos/demo-go
 
 # Download dependencies (if any)
 go mod download
 
 # Build the binary
-go build -o go-sample
+go build -o demo-go
 
 # Run tests
 go test ./...
@@ -32,7 +32,7 @@ go test ./...
 go run .
 
 # Or run the built binary
-./go-sample
+./demo-go
 ```
 
 If you plan to use a different module path, update `module` in `go.mod` accordingly.

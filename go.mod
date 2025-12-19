@@ -1,3 +1,3 @@
-module github.com/venkatesh-singamsetty/go-sample
+module github.com/venkatesh-singamsetty/demo-go
 
 go 1.20
